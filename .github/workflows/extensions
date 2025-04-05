@@ -1,2 +1,0 @@
-- name: Check minecraft commands
-  uses: mcbeet/check-commands@v1.1.1
