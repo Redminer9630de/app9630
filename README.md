@@ -28,7 +28,3 @@ Dieses Projekt wird unter der [MIT-Lizenz](LICENSE) bereitgestellt.
 ## 📬 Kontakt
 
 Für Fragen oder Anregungen kannst du uns jederzeit über denn [Discord-Server](https://discord.com/invite/uRNX47tYrX) erreichen.
-
----
-
-**Viel Spaß beim Entdecken und Mitwirken!**
