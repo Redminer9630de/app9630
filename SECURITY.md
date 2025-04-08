@@ -1,7 +1,7 @@
 # Sicherheitsrichtlinie
 
 ## Unterstützte Versionen
-
+## Dieser Beitrag ist nicht aktuell! Bald Aktualiesiert
 Hier siehst du, welche Versionen deines Projekts derzeit mit Sicherheitsupdates unterstützt werden.
 
 | Version | Unterstützt         |
