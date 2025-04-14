@@ -10,18 +10,49 @@
 <body>
     <h1>Einstellungen</h1>
 
-    <div class="setting">
-        <label for="darkmode">Dark Mode:</label>
-        <input type="checkbox" id="darkmode">
-    </div>
+<div class="settings">
+  <h2>Einstellungen</h2>
 
-    <div class="setting">
-        <label for="language">Sprache:</label>
-        <select id="language">
-            <option value="de">Deutsch</option>
-            <option value="en">Englisch</option>
-        </select>
-    </div>
+  <label>
+    <input type="checkbox" id="darkModeToggle">
+    Dark Mode aktivieren
+  </label>
 
+  <label>
+    Schriftgröße:
+    <select id="fontSizeSelect">
+      <option value="16px">Standard</option>
+      <option value="20px">Groß</option>
+      <option value="24px">Sehr groß</option>
+    </select>
+  </label>
+
+  <label>
+    Sprache:
+    <select id="languageSelect">
+      <option value="de">Deutsch</option>
+      <option value="en">Englisch</option>
+    </select>
+  </label>
+
+  <label>
+    <input type="checkbox" id="autostartToggle">
+    Starte zuletzt genutzte Version automatisch
+  </label>
+
+  <label>
+    Update-Channel:
+    <select id="updateChannelSelect">
+      <option value="stable">Stable</option>
+      <option value="beta">Beta</option>
+      <option value="dev">Developer</option>
+    </select>
+  </label>
+
+  <label>
+    <input type="checkbox" id="notificationsToggle">
+    Benachrichtigungen aktivieren
+  </label>
+</div>
 </body>
 </html>
