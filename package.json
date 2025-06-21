@@ -1,0 +1,24 @@
+{
+  "name": "redminer9630app",
+  "version": "0.1.0",
+  "description": "Offiziele Redminer9630 App",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^30.0.0",
+    "electron-builder": "^24.0.0"
+  },
+  "build": {
+    "appId": "net.redminer9630.app",
+    "productName": "Redminer9630App",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "nsis"
+    }
+  }
+}
